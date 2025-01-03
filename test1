@@ -6,6 +6,10 @@ public class ClassA
 public ClassA()
 {
 	System.out.println("default constructor");
+	System.out.println("default constructor");
+	System.out.println("default constructor");
+	System.out.println("default constructor");
+
 	new ClassA(20);
 }
 public ClassA(int a)
