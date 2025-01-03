@@ -1,0 +1,20 @@
+package pack1;
+
+
+public class ClassA
+{
+public ClassA()
+{
+	System.out.println("default constructor");
+	new ClassA(20);
+}
+public ClassA(int a)
+{
+	System.out.println("Parametrized constuructor");
+}
+	
+		  public static void main(String[] args) 
+		  {
+			 new ClassA(); 
+		  }
+}
